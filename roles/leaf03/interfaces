@@ -30,23 +30,12 @@ iface swp51
 
 auto swp51.10
 iface swp51.10
-    vrf blue
 
 auto swp51.20
 iface swp51.20
-    vrf red
 
 # Port to Spine02
 auto swp52
 iface swp52
     alias to Spine02
 
-auto blue
-iface blue
-    address 10.100.253.30/32
-    vrf-table auto
-
-auto red
-iface red
-    address 10.100.254.30/32
-    vrf-table auto
