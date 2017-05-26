@@ -20,4 +20,3 @@ server03 ansible_user=cumulus ansible_ssh_pass=CumulusLinux!
 [network:children]
 leafs
 spines
-internets
